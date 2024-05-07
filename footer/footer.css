@@ -4,15 +4,15 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightblue;
+    background-color: rgb(202, 150, 252);
+
 }
 
 .footer1{
     height: 150px;
-    margin-top: -50px;
+    margin-top: -35px;
     gap: 57px;
-
-    background-color: lightblue;
+    background-color: rgb(202, 150, 252);
 
     display: flex;
     justify-content: space-between;
@@ -21,12 +21,15 @@ footer{
 
 .laboratorio h2 {
     font-size: 17px;
+    margin-left: 35px;
 }
 
 .laboratorio h1{
-    font-size: 25px;
+    font-size: 32px;
     justify-content: center;
     align-items: center;
+    margin-left: 35px;
+
 }
 
 .suscribirse, .redes-sociales {
@@ -34,27 +37,28 @@ footer{
 }
 
 .suscribirse h4 {
-    font-size: 10px;
+    font-size: 16px;
+    text-align: start;
 }
 
 .cuadro1_0 {
     width: 90px;
     height: 50px;
-    border: 2px solid black;
     font-size: 15px;
     border-radius: 20px;
-    background-color: white;
-    
+    color: white;    
 
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    background-color:rgb(121, 5, 230) ;
 }
 
 .cuadro2_0 {
     width: 300px;
     height: 50px;
-    border: 2px solid black;
     border-radius: 20px;
     background-color: white;
 
@@ -75,10 +79,11 @@ footer{
 
 .redes-sociales div{
     font-size: 15px;
-
-
     list-style: none;
-
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-weight: 600;
 
 }
 
